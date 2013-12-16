@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#contact {
+    height: 120px;
+    width: 100%;
+    background-color: gray;
+    margin: 0px;
+    display: none;
+    text-align: center;
+}
+
+#contact-button:hover {
+    cursor: pointer;
+}
+
+#cEmail , #cFacebook , #cTwitter {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+}
+
+#cEmail:hover {
+    color: #C41E3A;
+    text-decoration: none;
+}
+
+#cFacebook:hover {
+    color: #3B5998;
+    text-decoration: none;
+}
+
+
+#cTwitter:hover {
+    color: #4099FF;
+    text-decoration: none;
+}
+
+
+#contact .span3 {
+    height: 100%;
+    margin: 0px;
+}
+
+#contact .span3 p {
+    color: #FFFFFF;
+}
+
+#nav-container {
+    margin: 0px;
+}
+
+#top-nav {
+    margin: 0px;
+    position: relative;
+}
+#nav-actual {
+    background: rgba(255,255,255,0.9);
+    border: none;
+    width: 60%;
+    margin: auto;
+}
+
+.item {
+    border-left: 1px solid gray;
+}
+
+#about-me {
+    position: relative;
+    top: 80px;
+}
+
+#about-me h1{
+    text-align: center;
+}
+
+#text {
+    width: 60%;
+}
